@@ -271,7 +271,7 @@ footer h2{
 footer nav{
     display: flex;
     flex-direction: column;
-    
+    gap: 5px;
 }
 
 .navs{
@@ -280,3 +280,15 @@ footer nav{
     margin-bottom: 50px;
     margin-top: 50px;
 }
+
+.social{
+    margin-top: 100px;
+    border-left: white 1px solid;
+    padding-left: 150px;
+}
+
+.social nav{
+    margin-top: 40px;
+    gap: 25px;
+}
+
