@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    margin-right: 40px;
+    align-items: center;
+}
+nav a{
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    
+}
+nav a:hover{
+    transform: scale(1.1);
+}
+
+.intro{
+    height: 800px;
+    background-image: url(images/blender40.png);
+    background-color: rgb(144, 144, 144);
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.intro .content{
+    color: white;
+    margin-left: 163px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.intro h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.intro h4{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.intro button{
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 15px;
+    border: none;
+}
+
+.gpl{
+    background-color: #1C1C1C;
+    width: 1100px;
+    height: 310px;
+    margin: 50px auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+}
+
+.gpl h1{
+    font-size: 58px;
+    color: #46EBC2;
+    margin-top: 28px;
+    font-weight: 800;
+}
+
+.gpl h4{
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.gpl h5{
+    margin-top: 42px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 64px;
+}
+
+.gpl a{
+    color: white;
+    transition: 0.3s;
+}
+
+.gpl a:hover{
+    transform: scale(1.1);
+}
+
+.gpl img{
+    margin-bottom: 30px;
+    width: 116px;
+    height: 166.511px;
+}
+
+.news .new h1{
+    margin-top: 95px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #000;
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.news .images{
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+.news .images img{
+    transition: 0.3s;
+}
+
+.news .images img:hover{
+    transform: scale(1.1);
+}
+
+.news .link{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.news .link a{
+    transition: 0.3s;
+}
+
+.news .link a:hover{
+    transform: scale(1.1);
+}
+
+.news .link a{
+    color: #000;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.team{
+    width: 70%;
+    height: 500px;
+    background-image: url(./images/teamwork1.png);
+    background-size: cover;
+    margin: 100px auto;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+}
+
+.team img{
+    margin-top: 55px;
+}
+
+.team h1{
+    margin-top: 40px;
+    font-size: 70px;
+}
+
+.team p{
+    font-size: 20px;
+    font-weight: 700;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.use{
+    width: 70%;
+    height: 500px;
+    background-image: url(./images/bg_use.png);
+    background-size: cover;
+    margin: 100px auto;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+}
+
+.use h1{
+    padding-top: 120px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.use p{
+    width: 53%;
+    font-size: 22px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.use h4{
+    font-weight: 500;
+    font-size: 23px;
+    margin-top: 35px;
+    color: white;
+}
+
+.use button a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+}
+
+.use button{
+    transition: 0.3s;
+    margin-left: 20px;
+    margin-top: 35px;
+    border-radius: 15px;
+    padding: 7px;
+    width: 100px;
+}
+
+.use button:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    background-color: #232323;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav p{
+    font-weight: 700;
+    color: white;
+}
+
+footer nav a{
+    text-decoration: none;
+    color: #BEBEBE;
+}
+
+footer h2{
+    color: white;
+    font-weight: 700;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.navs{
+    display: flex;
+    gap: 70px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
